@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="images/favicon-32x32.png" rel="icon">
+    <link href="styles/styles.css" rel="stylesheet">
+
+    <title>TODO APP</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <h1 class="header__title">TO-DO APP</h1>
+            <h2 class="header__subtitle">Whatch you wanna do</h2>
+        </div>
+    </div>
+
+    <div class="actions">
+        <div class="actions__container">
+            <input id="filtertodos" class="input" type="text" placeholder="Filter the Todos">
+            <label class="checkbox">
+                <input id="hidecomplete" type="checkbox" name="hidecomplete">Hide Completed
+            </label>
+        </div>
+    </div>
+    
+
+    <div id="todocontainer" class="container">
+        <div id="todos"></div>
+        <form id="new-todo">
+            <input class="input" placeholder="Add ToDo" type="text" name="text">
+            <button class="button">Add ToDo</button>
+        </form>  
+    </div>
+
+
+    <script src="/scripts/bundle.js"></script>
+   
+</body>
+
+</html>
